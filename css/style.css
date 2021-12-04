@@ -23,7 +23,7 @@ body,html {
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
-  transition: all .07s ease;
+  transition: all .05s ease;
   width: 10rem;
   text-align: center;
   color: #FFFFFF;
@@ -33,9 +33,8 @@ body,html {
 }
 
 .playing {
-  transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  transform: scale(0.95);
+  background: #00000030;
 }
 
 kbd {
